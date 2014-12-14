@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "bower": {}
+  },
+  "bower": {
+    "backbone": "1.1.0"
+  }
+}

@@ -1,0 +1,56 @@
+<template name="loginFormEmployee">
+    <form id="employeeForm" class="form-horizontal col-lg-5 formContainer">
+          <fieldset>
+            <legend>Login as employee</legend>
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+              <div class="col-lg-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                  <div class="col-lg-10 col-lg-offset-2">
+                    <button class="btn btn-default">Cancel</button>
+                    <button id="loginEmployee" type="submit" class="btn btn-primary">Enter</button>
+                    <button id="registerEmployeeOpen" class="btn btn-link pull-right">Register</button>
+                  </div>
+            </div>
+        </fieldset>
+    </form>    
+    <form id="register-form" class="employeeNewForm form-horizontal col-lg-5 formContainer">
+          <fieldset>
+            <legend>New employee</legend>
+            <div class="form-group">
+                <label for="inputNewEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                    <input type="email" id="account-email" class="form-control" placeholder="Email">
+                  </div>
+            </div>
+            <div class="form-group">
+              <label for="inputNewPassword1" class="col-lg-2 control-label">Password</label>
+              <div class="col-lg-10">
+                <input type="password" class="form-control" id="inputNewPassword1" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="inputNewPassword2" class="col-lg-2 control-label">Confirm password</label>
+              <div class="col-lg-10">
+                <input type="password" id="account-password" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                  <div class="col-lg-10 col-lg-offset-2">
+                    <button class="btn btn-default">Cancel</button>
+                    <button type="submit" id="create-account" class="btn btn-primary">Register</button>
+                    <button id="signInEmloyeeOpen" class="btn btn-link pull-right">Login</button>
+                  </div>
+            </div>
+        </fieldset>
+    </form> 
+</template>
