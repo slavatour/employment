@@ -18,7 +18,7 @@ Template.loginFormEmployee.events({
         	password = t.find('#account-password').value;
 		Accounts.createUser({email: email, password: password}, function (err) {
 			if(err) {
-				console.log("Error");
+				console.log(err);
 			} else {
 				
 			}
